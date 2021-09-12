@@ -4,84 +4,15 @@
 {% load static %}
 {% block head %}
     {{ block.super }}
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
-    <script src="{% static 'js/jquery.bootstrap-duallistbox.js' %}"></script>
-    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap-duallistbox.css' %}">
-
 {% endblock %}
 
 {% block body %}
 
 
-<div>
-  <div class="Polaris-Card">
-    <div>
-      <div class="Polaris-Tabs__Wrapper">
-        <div class="Polaris-Tabs Polaris-Tabs__TabMeasurer">
-          <li class="Polaris-Tabs__TabContainer" role="presentation"><button id="all-customers-1Measurer" role="tab" type="button" tabindex="-1" class="Polaris-Tabs__Tab Polaris-Tabs__Tab--selected" aria-selected="true"><span class="Polaris-Tabs__Title">All</span></button></li>
-<button type="button" class="Polaris-Tabs__DisclosureActivator" aria-label="More tabs"><span class="Polaris-Tabs__Title"><span class="Polaris-Icon Polaris-Icon--colorSubdued Polaris-Icon--applyColor"><svg viewBox="0 0 20 20" class="Polaris-Icon__Svg" focusable="false" aria-hidden="true">
-                  <path d="M6 10a2 2 0 1 1-4.001-.001A2 2 0 0 1 6 10zm6 0a2 2 0 1 1-4.001-.001A2 2 0 0 1 12 10zm6 0a2 2 0 1 1-4.001-.001A2 2 0 0 1 18 10z"></path>
-                </svg></span></span></button>
-        </div>
-        <ul role="tablist" class="Polaris-Tabs">
-          <li class="Polaris-Tabs__TabContainer" role="presentation"><button id="all-customers-1" role="tab" type="button" tabindex="0" class="Polaris-Tabs__Tab Polaris-Tabs__Tab--selected" aria-selected="true" aria-controls="all-customers-content-1" aria-label="All customers"><span class="Polaris-Tabs__Title">Block</span></button></li>
-          <li class="Polaris-Tabs__DisclosureTab" role="presentation">
-            <div><button type="button" class="Polaris-Tabs__DisclosureActivator" aria-label="More tabs" tabindex="0" aria-controls="Polarispopover2" aria-owns="Polarispopover2" aria-expanded="false"><span class="Polaris-Tabs__Title"><span class="Polaris-Icon Polaris-Icon--colorSubdued Polaris-Icon--applyColor"><svg viewBox="0 0 20 20" class="Polaris-Icon__Svg" focusable="false" aria-hidden="true">
-                      <path d="M6 10a2 2 0 1 1-4.001-.001A2 2 0 0 1 6 10zm6 0a2 2 0 1 1-4.001-.001A2 2 0 0 1 12 10zm6 0a2 2 0 1 1-4.001-.001A2 2 0 0 1 18 10z"></path>
-                    </svg></span></span></button></div>
-          </li>
-        </ul>
-      </div>
-      <div class="Polaris-Tabs__Panel" id="all-customers-content-1" role="tabpanel" aria-labelledby="all-customers-1" tabindex="-1">
-        <div class="Polaris-Card__Section">
-          <div class="">
-            <select multiple="multiple" size="10" name="duallistbox_demo2" class="demo2" title="duallistbox_demo2">
-              <option value="option1">Option 1</option>
-              <option value="option2">Option 2</option>
-              <option value="option3" selected="selected">Option 3</option>
-              <option value="option4">Option 4</option>
-              <option value="option5">Option 5</option>
-              <option value="option6" selected="selected">Option 6</option>
-              <option value="option7">Option 7</option>
-              <option value="option8">Option 8</option>
-              <option value="option9">Option 9</option>
-              <option value="option0">Option 10</option>
-              <option value="option0">Option 11</option>
-              <option value="option0">Option 12</option>
-              <option value="option0">Option 13</option>
-              <option value="option0">Option 14</option>
-              <option value="option0">Option 15</option>
-              <option value="option0">Option 16</option>
-              <option value="option0">Option 17</option>
-              <option value="option0">Option 18</option>
-              <option value="option0">Option 19</option>
-              <option value="option0">Option 20</option>
-            </select>
-            <script>
-            $(document).ready(function() {
-              var demo2 = $('.demo2').bootstrapDualListbox({
-                  nonSelectedListLabel: 'Non-selected',
-                  selectedListLabel: 'Selected',
-                  preserveSelectionOnMove: 'moved',
-                  moveOnSelect: false,
-                  nonSelectedFilter: ''
-                });
-              });
-            </script>
-          </div>
 
-        </div>
-      </div>
-     </div>
-  </div>
-  <div id="PolarisPortalsContainer">
-    <div data-portal-id="popover-Polarisportal1"></div>
-  </div>
-</div>
+
+
+
 
 
 

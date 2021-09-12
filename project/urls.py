@@ -20,8 +20,9 @@ from django.conf.urls.static import static
 
 
 urlpatterns = [
-    path('', include('auth_app.urls',namespace='auth_app')),
+    
 
+    path('', include('auth_app.urls',namespace='auth_app')),
     path('login/', include('shopify_auth.urls')),
     path('admin/', admin.site.urls),
 ]

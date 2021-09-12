@@ -2,124 +2,94 @@
 
 {% block body %}
 
-<div>
-  <div class="Polaris-Card">
-    <div>
-      <div class="Polaris-Tabs__Wrapper">
-        <div class="Polaris-Tabs Polaris-Tabs__TabMeasurer">
-          <li class="Polaris-Tabs__TabContainer" role="presentation"><button id="all-customers-1Measurer" role="tab" type="button" tabindex="-1" class="Polaris-Tabs__Tab Polaris-Tabs__Tab--selected" aria-selected="true"><span class="Polaris-Tabs__Title">Settings</span></button></li>
-            <button type="button" class="Polaris-Tabs__DisclosureActivator" aria-label="More tabs"><span class="Polaris-Tabs__Title"><span class="Polaris-Icon Polaris-Icon--colorSubdued Polaris-Icon--applyColor"><svg viewBox="0 0 20 20" class="Polaris-Icon__Svg" focusable="false" aria-hidden="true">
-                  <path d="M6 10a2 2 0 1 1-4.001-.001A2 2 0 0 1 6 10zm6 0a2 2 0 1 1-4.001-.001A2 2 0 0 1 12 10zm6 0a2 2 0 1 1-4.001-.001A2 2 0 0 1 18 10z"></path>
-                </svg></span></span></button>
-        </div>
-        <ul role="tablist" class="Polaris-Tabs">
-          <li class="Polaris-Tabs__TabContainer" role="presentation"><button id="all-customers-1" role="tab" type="button" tabindex="0" class="Polaris-Tabs__Tab Polaris-Tabs__Tab--selected" aria-selected="true" aria-controls="all-customers-content-1" aria-label="All customers"><span class="Polaris-Tabs__Title">Settings</span></button></li>
-          <li class="Polaris-Tabs__DisclosureTab" role="presentation">
-            <div><button type="button" class="Polaris-Tabs__DisclosureActivator" aria-label="More tabs" tabindex="0" aria-controls="Polarispopover14" aria-owns="Polarispopover14" aria-expanded="false"><span class="Polaris-Tabs__Title"><span class="Polaris-Icon Polaris-Icon--colorSubdued Polaris-Icon--applyColor"><svg viewBox="0 0 20 20" class="Polaris-Icon__Svg" focusable="false" aria-hidden="true">
-                      <path d="M6 10a2 2 0 1 1-4.001-.001A2 2 0 0 1 6 10zm6 0a2 2 0 1 1-4.001-.001A2 2 0 0 1 12 10zm6 0a2 2 0 1 1-4.001-.001A2 2 0 0 1 18 10z"></path>
-                    </svg></span></span></button></div>
-          </li>
-        </ul>
+    <div class="row no-gutters">
+      <div class="col-md-3 card-annotation">
+        <a name='toast'></a>
+        <h3 class="display-3">Configuration
+        </h3>
       </div>
-      <div class="Polaris-Tabs__Panel" id="all-customers-content-1" role="tabpanel" aria-labelledby="all-customers-1" tabindex="-1">
-        <div class="Polaris-Card__Section">
-          <div class="Polaris-Card__SectionHeader">
-
-            
-            
-<br>
-
-<div>
-  <div class="Polaris-Card">
-    <div class="Polaris-Card__Section">
-      <div class="Polaris-SettingAction">
-        <div class="Polaris-SettingAction__Setting">Block VPN Visitors <span class="Polaris-TextStyle--variationStrong">deactivated</span>.</div>
-        <div class="Polaris-SettingAction__Action"><button class="Polaris-Button Polaris-Button--primary" type="button"><span class="Polaris-Button__Content"><span class="Polaris-Button__Text">Activate</span></span></button></div>
-      </div>
-    </div>
-  </div>
-  <div id="PolarisPortalsContainer"></div>
-</div>
-
-            
-            <br>
-            
-            
-<div>
-  <div class="Polaris-Card">
-    <div class="Polaris-Card__Section">
-      <div class="Polaris-SettingAction">
-        <div class="Polaris-SettingAction__Setting">Block Proxy Visitors <span class="Polaris-TextStyle--variationStrong">deactivated</span>.</div>
-        <div class="Polaris-SettingAction__Action"><button class="Polaris-Button Polaris-Button--primary" type="button"><span class="Polaris-Button__Content"><span class="Polaris-Button__Text">Activate</span></span></button></div>
-      </div>
-    </div>
-  </div>
-  <div id="PolarisPortalsContainer"></div>
-</div>
-
-
-            <br>
-            
-            
-<div>
-  <div class="Polaris-Card">
-    <div class="Polaris-Card__Section">
-      <div class="Polaris-SettingAction">
-        <div class="Polaris-SettingAction__Setting">Block Visitors Using Tor <span class="Polaris-TextStyle--variationStrong">deactivated</span>.</div>
-        <div class="Polaris-SettingAction__Action"><button class="Polaris-Button Polaris-Button--primary" type="button"><span class="Polaris-Button__Content"><span class="Polaris-Button__Text">Activate</span></span></button></div>
-      </div>
-    </div>
-  </div>
-  <div id="PolarisPortalsContainer"></div>
-</div>
-
-
-<br>
-            
-            
-            
-
-          <div>
-  <div class="">
-    <div class="Polaris-Labelled__LabelWrapper">
-      <div class="Polaris-Label"><label id="PolarisTextField4Label" for="PolarisTextField4" class="Polaris-Label__Text">Block Message</label></div>
-    </div>
-    <div class="Polaris-Connected">
-      <div class="Polaris-Connected__Item Polaris-Connected__Item--primary">
-        <div class="Polaris-TextField Polaris-TextField--hasValue Polaris-TextField--multiline"><textarea id="PolarisTextField4" class="Polaris-TextField__Input" aria-labelledby="PolarisTextField4Label" aria-invalid="false" aria-multiline="true" style="height: 106px;">1776 Barnes Street
-Orlando, FL 32801</textarea>
-          <div class="Polaris-TextField__Backdrop"></div>
-          <div aria-hidden="true" class="Polaris-TextField__Resizer">
-            <div class="Polaris-TextField__DummyInput">1776 Barnes Street<br>Orlandoundefined FL 32801<br></div>
-            <div class="Polaris-TextField__DummyInput"><br><br><br><br></div>
+      <div class="col-md-9">
+        <div class="card">
+          <div class="card-body">
+            <ul class="resource-list">
+                <li class="resource-list__item">
+                <label>Block Visitors using Proxy</label>
+                <button type="button" id="btnproxy" class="btn btn-sm btn-outline-danger">Disabled</button>
+                </li>
+                <li class="resource-list__item">
+                <label>Block Visitors using VPN</label>
+                <button type="button" id="btnvpn" class="btn btn-sm btn-success">Enabled</button>
+                </li>
+                <li class="resource-list__item">
+                <label>Block Spy Tools</label>
+                <button type="button" id="btnspytool" class="btn btn-sm btn-success">Enabled</button>
+                </li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div id="PolarisPortalsContainer"></div>
-</div>  
 
-
-<br>
-
-<div><button class="Polaris-Button Polaris-Button--primary" type="button"><span class="Polaris-Button__Content"><span class="Polaris-Button__Text">Save Settings</span></span></button>
-  <div id="PolarisPortalsContainer"></div>
-</div>
-
-<br>
-        </div>
+    
+        
+    <div class="row no-gutters">
+      <div class="col-md-3 card-annotation">
+        <a name='toast'></a>
+        <h3 class="display-3">Blocked Message
+        </h3>
       </div>
-      <div class="Polaris-Tabs__Panel Polaris-Tabs__Panel--hidden" id="accepts-marketing-content-1" role="tabpanel" aria-labelledby="accepts-marketing-1" tabindex="-1"></div>
-      <div class="Polaris-Tabs__Panel Polaris-Tabs__Panel--hidden" id="repeat-customers-content-1" role="tabpanel" aria-labelledby="repeat-customers-1" tabindex="-1"></div>
-      <div class="Polaris-Tabs__Panel Polaris-Tabs__Panel--hidden" id="prospects-content-1" role="tabpanel" aria-labelledby="prospects-1" tabindex="-1"></div>
+      <div class="col-md-9">
+        <div class="card">
+          <div class="card-body">
+                      <div class="form-group">
+              <label class="col-form-label" for="formGroupExampleInput">You are not allowed</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Big Title">
+            </div>
+            <div class="form-group">
+              <label class="col-form-label" for="description">Description</label>
+              <textarea class="form-control" name="description" id="description" placeholder="Short Paragraph" rows="10"></textarea>
+            </div>
+      <div class="btn-group btn-group--spaced" role="group" aria-label="Product Actions">
+        <button type="button" class="btn">Cancel</button>
+        <button type="button" class="btn btn-primary">Save</button>
+      </div>
+          </div>
+
+          
+        </div>
+
+
+
+
+      </div>
     </div>
-  </div>
-  <div id="PolarisPortalsContainer">
-    <div data-portal-id="popover-Polarisportal7"></div>
-  </div>
-</div>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+<script>
+  $(document).ready(function(){
+  });
+  </script>
 
 {% endblock %}

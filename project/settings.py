@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-6t&_wo!vkg%wroeb_)5oss8+0@bofuqgpd_65wol4#gqczulzj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["b1ca-197-153-30-31.ngrok.io"]
+ALLOWED_HOSTS = ["f2e9-197-153-4-152.ngrok.io"]
 AUTH_USER_MODEL = 'auth_app.AuthAppShopUser'
 
 # Application definition
