@@ -140,8 +140,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Configure Shopify Application settings
 SHOPIFY_APP_NAME = 'ipblocker'
-SHOPIFY_APP_API_KEY = ('a0a59b99573f9942f0cc359c2c729266')
-SHOPIFY_APP_API_SECRET = ('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')
+SHOPIFY_APP_API_KEY = ('')
+SHOPIFY_APP_API_SECRET = ('')
 SHOPIFY_APP_API_SCOPE = ['read_products', 'read_orders']
 # Find API version to pin at https://help.shopify.com/en/api/versioning
 SHOPIFY_APP_API_VERSION = "2021-07"
